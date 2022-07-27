@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#cont_logi{
+    box-shadow: 1px 5px 8px #303030;
+    border-radius: 5px;
+}
+
+#cont_img_log{
+    text-align: center;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#cont_img_log .title_app{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 50px;
+    text-shadow: 2px 1px 2px #a1a1a1;
+}
+
+#cont_img_log .desc_app{
+    color: white;
+    font-weight: bold;
+    text-align: center !important;
+}
+
+#cont_img_log img{
+    display: flex;
+    justify-content: left;
+    margin-left: 30px;
+    z-index: 100;
+    margin-top: -100px;
+}
+
+#cont_img_log svg{
+    width: 104.4%;
+    margin-left: -12px;
+    margin-top: 90px;
+    margin-bottom: -100px;
+}
+#cont_form{
+    padding: 15px;
+}
+
+#title_log{
+    color: #2193b0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title_app{
+    color: white;
+}
